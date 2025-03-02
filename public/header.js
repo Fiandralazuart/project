@@ -1,4 +1,4 @@
-const menu = document.querySelector('.logo-mbox')
+const menu = document.getElementById('menu-icon')
 const nav = document.querySelector('.menu-container')
 
 menu.addEventListener('click', () => {
