@@ -126,3 +126,12 @@
       margin-right: 200px;
    }
 }
+
+@media (max-width: 500px) {
+   .home-box h1 {
+      font-size: 28px;
+   }
+   .home-box h5 {
+      font-size: 18px;
+   }
+}
