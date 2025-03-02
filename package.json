@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon mail.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
