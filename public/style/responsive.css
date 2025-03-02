@@ -137,7 +137,7 @@
       font-size: 25px;
    }
    .home-box h5 {
-      font-size: 15px;
+      font-size: 13px;
    }
    
    .properties-container {
@@ -161,5 +161,9 @@
    }
    .form-1 {
       flex-direction: column;
+   }
+
+   .footer-container {
+      padding: 50px 50px;
    }
 }
