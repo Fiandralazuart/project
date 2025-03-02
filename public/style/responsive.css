@@ -128,10 +128,38 @@
 }
 
 @media (max-width: 500px) {
+   body, html {
+      width: 100vw;
+      overflow-x: hidden;
+      padding: 0.8em 0;
+   }
    .home-box h1 {
-      font-size: 28px;
+      font-size: 25px;
    }
    .home-box h5 {
-      font-size: 18px;
+      font-size: 15px;
+   }
+   
+   .properties-container {
+      width: 250px;
+   }
+   .box-akomodasi {
+      font-size: 10px;
+   }
+
+   .testimonial-component {
+      width: 250px;
+   }
+
+   .contact {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+   .form-container {
+      width: 250px;
+   }
+   .form-1 {
+      flex-direction: column;
    }
 }
