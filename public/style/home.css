@@ -1,0 +1,32 @@
+body {
+   margin-top: 50px;
+}
+section {
+   min-height: 100vh;
+}
+.home {
+   height: 100vh;
+   background-image: url("../img/ruangan.avif");
+   
+}
+.home-box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   background-color: rgba(0, 0, 0, 0.801);
+   height: 100%;
+   color: white;
+   font-size: 30px;
+   padding-left: 100px;
+}
+.home-box h1, .home-box h5 {
+   margin: 0 0 30px 0;
+}
+.home-box h5 {
+   font-size: 20px;
+   line-height: 30px;
+   color: rgb(192, 192, 192);
+} 
+
+

@@ -1,0 +1,128 @@
+@media(max-width:990px) {
+
+   .menu-container {
+      margin-right: 90px;
+   }
+
+   /* respomsive bagian properties */
+   .properties {
+      padding-bottom: 100px;
+   }
+   .properties-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   /* responsive bagian about */
+   .about {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-bottom: 100px;
+   }
+   .about-img img {
+      height: 80%;
+   }
+   .about-information {
+      padding-right: 50px;
+      padding-top: 50px;
+   }
+
+   /* responsive bagian testimonial */
+   .testimonial-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   /* responsive bagian contact */
+   .contact-box {
+      padding: 0 50px;
+   }
+   .contact-desk {
+      font-size: 20px;
+   }
+
+   .footer-container {
+      padding: 50px 100px;
+   }
+}
+
+@media (max-width:770px) {
+   .header-container {
+      flex-wrap: wrap;
+   }
+   .menu-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   #menu-icon {
+      display: flex;
+   }
+   .hidden {
+      display: none;
+   }
+
+   .home-box {
+      padding-left: 50px;
+   }
+
+
+   .properties-box {
+      display: grid;
+      grid-template-columns: 1fr ;
+   }
+
+
+   .about {
+      padding-bottom: 50px;
+   }
+   .about-img img {
+      width: 70%;
+   }
+   .about-component {
+      grid-template-columns: 1fr;
+   }
+   .about-information {
+      padding-top: 50px;
+   }
+
+
+   .testimonial {
+      padding-bottom: 50px;
+      padding-top: 50px;
+   }
+   .testimonial-box {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+
+   .contact {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 80px;
+      padding-bottom: 50px;
+   }
+   .contact-box {
+      padding-top: 50px;
+   }
+
+
+   .fitur-box {
+      flex-direction: column;
+   }
+   .footer-desk, .footer-facility {
+      margin-bottom: 50px;
+   }
+
+
+}
+
+@media (min-width:1000px ) and (max-width: 1200px) {
+   .menu-container {
+      margin-right: 200px;
+   }
+}

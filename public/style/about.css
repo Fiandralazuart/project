@@ -1,0 +1,34 @@
+html {
+   width: 100%;
+}
+.about {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-top: 50px;
+   align-items: center;
+   background-color: rgb(242, 249, 255);
+}
+.about-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about-information {
+   padding-left: 50px;
+}
+.about-component {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 200px;
+   gap: 20px;
+}
+.component {
+   background-color: white;
+   box-shadow: 0 0 3px gray;
+   padding-left: 30px;
+   border: none;
+   border-radius: 10px;
+}
+.component p {
+   color: rgb(138, 138, 138);
+}
